@@ -1,0 +1,2 @@
+python train.py --train_path datasets/transforms.Identity/train.tsv --dev_path datasets/transforms.Identity/valid.tsv --expt_name lstm --expt_dir model
+python evaluate.py --data_path datasets/transforms.Identity/test.tsv --expt_dir model/lstm --output_dir results --load_checkpoint "Best_F1"
