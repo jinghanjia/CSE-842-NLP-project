@@ -16,4 +16,8 @@ In this project, I used [seq2seq](https://www.mdpi.com/2076-3417/9/8/1665/pdf) m
 ## Evaluation
 In this project, I report three metrics on test,train and validation datasets: precision, recall, F1 score.
 ## Report summary. 
-
+| dataset     | precision | recall     | F1 |
+| ----------- | ----------- | ----------- | ----------- |
+| train      |    46.30%    |     26.38%   |   33.60%     |
+| test   |     46.23%    |  26.23%   |   33.47% |
+| valid   |   45.91%      |   26.12%  |  33.30%  |
