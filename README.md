@@ -6,12 +6,12 @@ In this projtect, you need to install following packages by using this command:
 <html>
       <head>RUN pip install torch==1.6.0 numpy dill tqdm torchtext==0.7.0 tensorboard matplotlib</head>
     </html>
-
+You also need to install tensorflow>=1.12.0 to run the code2seq
 ## Train and test dataset split
 Here is the [download link](https://drive.google.com/file/d/1lOB2uars2WwuNKoZhCOGYKGeWNP0_w2w/view?usp=sharing) of preprocessed dataset py. I split it into three .tsv files. Train.tsv stores train dataset, size is 149992;Test.tsv stores the test datasets,size is 20000; Valid.tsv stores the validation datasets,size is 10000.
-
+We also have some preprocessed datasets which done by some parser which generate AST of the codes, names data.train.c2s.
 ## Machine learning method.
-In this project, I used [seq2seq](https://www.mdpi.com/2076-3417/9/8/1665/pdf) model to generate summarization of code.
+In this project, I used [seq2seq](https://www.mdpi.com/2076-3417/9/8/1665/pdf)  and [code2seq](https://arxiv.org/pdf/1808.01400.pdf) model to generate summarization of code.
 
 ## Evaluation
 In this project, I report three metrics on test,train and validation datasets: precision, recall, F1 score.
