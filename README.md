@@ -23,9 +23,8 @@ In this project, I report three metrics on test,train and validation datasets: p
 | valid   |   45.91%      |   26.12%  |  33.30%  |
 
 
-## Report summary for seq2seq. 
-| dataset     | precision | recall     | F1 |
+## Report summary for seq2seq and code2seq on PY150. 
+| models(dataset)     | precision | recall     | F1 |
 | ----------- | ----------- | ----------- | ----------- |
-| train      |    48.53%    |     32.96%   |   39.26%     |
-| test   |     46.23%    |  26.23%   |   33.47% |
-| valid   |   45.91%      |   26.12%  |  33.30%  |
+| test (code2seq)  |     50.05%    |  33.66%   |   40.25% |
+| test(seq2seq)   |     46.23%    |  26.23%   |   33.47% |
